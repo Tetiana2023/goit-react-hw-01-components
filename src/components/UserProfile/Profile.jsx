@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 
 
 
-export const Profile = ({username, tag, location, avatar, stats}) => (<div className="profile">
+export const Profile = ({username, tag, location, avatar, stats}) => (
+<div className="profile">
 <div className="description">
   <img
     src={avatar}
@@ -40,5 +41,5 @@ Profile.propTypes = {
     followers:PropTypes.number.isRequired,
     views:PropTypes.number.isRequired,
     likes:PropTypes.number.isRequired,
-  })
+  }).isRequired,
 }

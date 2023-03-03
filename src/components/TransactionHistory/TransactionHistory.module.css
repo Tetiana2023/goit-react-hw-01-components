@@ -1,0 +1,19 @@
+.transactionhistory{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+}
+.tablethead{
+    background-color: aqua;
+}
+.tablename{
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+/* .tablebody{
+    display: flex;
+    flex-direction: column;
+} */

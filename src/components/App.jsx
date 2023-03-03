@@ -6,11 +6,11 @@ import { FriendsList } from "../components/FriendsList/FriendsList";
 import friends from "../components/FriendsList/friends.json";
 import { TransactionHistory } from "../components/TransactionHistory/TransactionHistory";
 import transactions from "../components/TransactionHistory/transactions.json";
- import  "./App.module.css"
+import css from  "./App.module.css"
 
 export const App = () => {
   return (
-    <div className="container">
+    <div className={css.container}>
     <Profile
     username={user.username}
     tag={user.tag}

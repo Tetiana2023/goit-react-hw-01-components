@@ -22,7 +22,12 @@
     font-weight: 700;
 }
 .status{
-    color: tomato;
+    /* color: tomato; */
+    /* color: {({ isOnline }) => (isOnline? 'green' : 'tomato')}; */
+    }
+
+.green{
+    color: green;
 }
 .friendlist{
     display: flex;

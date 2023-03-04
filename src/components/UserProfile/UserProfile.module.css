@@ -6,6 +6,13 @@
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px,
     rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    cursor: pointer;
+    transition: scale 250ms;
+
+}
+.profile:hover,
+:focus {
+   scale: 1.05;
 }
 .description{
     display: flex;
@@ -24,7 +31,10 @@
     border-radius: 50%;
     max-width: 100px;
     margin: 20px auto;
-         
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px,
+    rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+ 
+            
 }
 .name{
     font-size: 20px;
